@@ -9,8 +9,10 @@ It contains the following packages:
 
 Package                     | Description  |
 --------------------------- | ------------------------------------------------- |
+@frontendez/client          | Contains the client web app                       |
+@frontendez/theme           | Theme SCSS files                                  |
 @frontendez/ui              | UI Component Library                              |
-@frontendez/client          | Contains the client web app.                      |
+@frontendez/utils           | Typescript Utils                                  |
 
 ## Getting Started
 
