@@ -1,0 +1,15 @@
+{
+  "name": "frontendez",
+  "description": "frontendez root",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "yarn workspaces run start"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
