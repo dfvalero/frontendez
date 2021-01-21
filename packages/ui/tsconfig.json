@@ -8,5 +8,9 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "jsx": "react",
     "types": ["node"]
-  }
+  },
+  "exclude": [
+    "./dist/**/*",
+    "node_modules/"
+  ]
 }
