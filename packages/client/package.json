@@ -1,12 +1,13 @@
 {
   "name": "@frontendez/client",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "scripts": {
     "start": "webpack serve --mode development",
-    "typecheck": "tsc --noEmit"
+    "build": "webpack --mode production"
   },
   "license": "MIT",
   "dependencies": {
+    "@frontendez/ui": "^1.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "webpack-dev-server": "^3.11.2"
