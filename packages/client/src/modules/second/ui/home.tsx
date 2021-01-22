@@ -1,8 +1,9 @@
 import React from 'react';
 import { Div } from '@frontendez/ui';
 import { useSecondModule } from '../index';
+import { Module } from '../index';
 
-export const Home = () => {
+export const HomePage = () => {
   const { getName, getNames } = useSecondModule();
 
   return (
@@ -12,5 +13,13 @@ export const Home = () => {
       <div>Name: {getName()}</div>
       <div>Multiple: {getNames().join(', ')}</div>
     </div>
+  );
+};
+
+export const Home = () => {
+  return (
+    <Module>
+      <HomePage />
+    </Module>
   );
 };
