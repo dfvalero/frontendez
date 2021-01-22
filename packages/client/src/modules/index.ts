@@ -4,7 +4,7 @@ import { routes as firstRoutes } from './first';
 import { routes as secondRoutes } from './second';
 
 interface Route extends RouteProps {
-    name: string;
+  name: string;
 }
 
 export const routes: Route[] = [...firstRoutes, ...secondRoutes];

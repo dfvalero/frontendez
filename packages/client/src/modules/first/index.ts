@@ -6,6 +6,4 @@ import { Home } from './ui/home';
 // export const useFirstModule = () => useModule(numbersRepository);
 export const useFirstModule = () => useModule(otherNumbersRepository);
 
-export const routes = [
-    { name: 'first-home', path: '/first', component: Home, exact: true }
-];
+export const routes = [{ name: 'first-home', path: '/first', component: Home, exact: true }];

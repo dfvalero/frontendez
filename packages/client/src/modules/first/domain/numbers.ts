@@ -1,4 +1,4 @@
-type NumbersRepository = {
-    getOne: () => number;
-    getMultiple: () => number[];
-}
+export type NumbersRepository = {
+  getOne: () => number;
+  getMultiple: () => number[];
+};

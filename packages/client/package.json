@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "scripts": {
     "start": "webpack serve --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier -l --write \"**/*.{ts,tsx,js,jsx,less,css,scss,md,mdx}\"",
+    "lint": "eslint 'src/**/*.{ts,tsx}'"
   },
   "license": "MIT",
   "dependencies": {

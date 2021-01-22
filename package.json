@@ -8,10 +8,19 @@
   ],
   "scripts": {
     "start": "lerna run start --stream --parallel",
-    "build": "lerna run build --stream"
+    "build": "lerna run build --stream",
+    "typecheck": "lerna run typecheck --stream",
+    "lint": "lerna run lint --stream",
+    "format": "lerna run format --stream"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.14.0",
+    "@typescript-eslint/parser": "^4.14.0",
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
     "lerna": "^3.22.1",
+    "prettier": "^2.2.1",
     "typescript": "^4.1.3"
   }
 }

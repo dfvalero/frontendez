@@ -1,4 +1,4 @@
-type NamesRepository = {
-    getName: () => string;
-    getNames: () => string[];
-}
+export type NamesRepository = {
+  getName: () => string;
+  getNames: () => string[];
+};
