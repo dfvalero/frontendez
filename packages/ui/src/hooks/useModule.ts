@@ -1,0 +1,1 @@
+export const useModule = <T>(module: T) => module;
