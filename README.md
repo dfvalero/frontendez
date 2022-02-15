@@ -27,13 +27,3 @@ application actions.
 | -------------------- | ------------------------------------------------ |
 | `yarn run start`     | Runs the packages in a dev mode                  |
 | `yarn run build`     | Builds all packages                              |
-
-Test Mermaid
-
-```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-```
